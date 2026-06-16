@@ -1,0 +1,2238 @@
+﻿{
+  "detectors": {
+    "A0": {
+      "description": "A0 Note Detector 1",
+      "target_note": "A0",
+      "f_natural": 27.5,
+      "spectral_centroid": 254.61,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_a0",
+      "default_files": [
+        "A0.wav",
+        "A3.wav",
+        "A#0.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "rectification": true,
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 4,
+        "bandwidth_octaves": 0.005,
+        "drive_strength": 64000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A#0": {
+      "description": "A#0 Note Detector 2",
+      "target_note": "A#0",
+      "f_natural": 29.12,
+      "spectral_centroid": 240.02,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_as0",
+      "default_files": [
+        "A#0.wav",
+        "A0.wav",
+        "B0.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "rectification": true,
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 2,
+        "bandwidth_octaves": 0.005,
+        "drive_strength": 72000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "B0": {
+      "description": "B0 Note Detector 3",
+      "target_note": "B0",
+      "f_natural": 30.75,
+      "spectral_centroid": 293.63,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_b0",
+      "default_files": [
+        "B0.wav",
+        "A#3.wav",
+        "C#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "rectification": true,
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 2,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 14000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C1": {
+      "description": "C1 Note Detector 4",
+      "target_note": "C1",
+      "f_natural": 32.62,
+      "spectral_centroid": 266.16,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_c1",
+      "default_files": [
+        "C1.wav",
+        "A0.wav",
+        "C#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "rectification": true,
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 2,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 18000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C#1": {
+      "description": "C#1 Note Detector 5",
+      "target_note": "C#1",
+      "f_natural": 34.5,
+      "spectral_centroid": 319.66,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_cs1",
+      "default_files": [
+        "C#1.wav",
+        "C1.wav",
+        "A#0.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "rectification": true,
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 2,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 24000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D1": {
+      "description": "D1 Note Detector 6",
+      "target_note": "D1",
+      "f_natural": 36.38,
+      "spectral_centroid": 334.87,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_d1",
+      "default_files": [
+        "D1.wav",
+        "A0.wav",
+        "E1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "rectification": true,
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 2,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 24000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D#1": {
+      "description": "D#1 Note Detector 7",
+      "target_note": "D#1",
+      "f_natural": 38.62,
+      "spectral_centroid": 325.46,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_ds1",
+      "default_files": [
+        "D#1.wav",
+        "C#1.wav",
+        "F1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "rectification": true,
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 4,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 18000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "E1": {
+      "description": "E1 Note Detector 8",
+      "target_note": "E1",
+      "f_natural": 40.88,
+      "spectral_centroid": 402.08,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_e1",
+      "default_files": [
+        "E1.wav",
+        "C#1.wav",
+        "B0.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 2,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 73000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F1": {
+      "description": "F1 Note Detector 9",
+      "target_note": "F1",
+      "f_natural": 43.31,
+      "spectral_centroid": 364.17,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_f1",
+      "default_files": [
+        "F1.wav",
+        "E1.wav",
+        "D#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 65000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F#1": {
+      "description": "F#1 Note Detector 10",
+      "target_note": "F#1",
+      "f_natural": 45.88,
+      "spectral_centroid": 469.4,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_fs1",
+      "default_files": [
+        "F#1.wav",
+        "F1.wav",
+        "G#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 80000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G1": {
+      "description": "G1 Note Detector 11",
+      "target_note": "G1",
+      "f_natural": 48.62,
+      "spectral_centroid": 457.48,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_g1",
+      "default_files": [
+        "G1.wav",
+        "F#1.wav",
+        "F1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "rectification": true,
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 6,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 32000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G#1": {
+      "description": "G#1 Note Detector 12",
+      "target_note": "G#1",
+      "f_natural": 51.5,
+      "spectral_centroid": 499.5,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_gs1",
+      "default_files": [
+        "G#1.wav",
+        "F#1.wav",
+        "G1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "rectification": true,
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 4,
+        "bandwidth_octaves": 0.005,
+        "drive_strength": 40000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A1": {
+      "description": "A1 Note Detector 13",
+      "target_note": "A1",
+      "f_natural": 54.62,
+      "spectral_centroid": 545.39,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_a1",
+      "default_files": [
+        "A1.wav",
+        "A0.wav",
+        "C8.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 4,
+        "bandwidth_octaves": 0.005,
+        "drive_strength": 56000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A#1": {
+      "description": "A#1 Note Detector 14",
+      "target_note": "A#1",
+      "f_natural": 57.75,
+      "spectral_centroid": 604.6,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_as1",
+      "default_files": [
+        "A#1.wav",
+        "A#0.wav",
+        "C8.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 6,
+        "bandwidth_octaves": 0.004,
+        "drive_strength": 40000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "B1": {
+      "description": "B1 Note Detector 15",
+      "target_note": "B1",
+      "f_natural": 61.12,
+      "spectral_centroid": 660.46,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_b1",
+      "default_files": [
+        "B1.wav",
+        "B0.wav",
+        "C#2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 6,
+        "bandwidth_octaves": 0.005,
+        "drive_strength": 23000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C2": {
+      "description": "C2 Note Detector 16",
+      "target_note": "C2",
+      "f_natural": 64.75,
+      "spectral_centroid": 694.55,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_c2",
+      "default_files": [
+        "C2.wav",
+        "C1.wav",
+        "C#2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 10,
+        "bandwidth_octaves": 0.01,
+        "drive_strength": 33000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C#2": {
+      "description": "C#2 Note Detector 17",
+      "target_note": "C#2",
+      "f_natural": 68.75,
+      "spectral_centroid": 768.59,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_cs2",
+      "default_files": [
+        "C#2.wav",
+        "C#1.wav",
+        "D2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 26,
+        "bandwidth_octaves": 0.01,
+        "drive_strength": 25000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D2": {
+      "description": "D2 Note Detector 18",
+      "target_note": "D2",
+      "f_natural": 73.0,
+      "spectral_centroid": 848.89,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_d2",
+      "default_files": [
+        "D2.wav",
+        "D1.wav",
+        "C#2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 18,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 43000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D#2": {
+      "description": "D#2 Note Detector 19",
+      "target_note": "D#2",
+      "f_natural": 77.5,
+      "spectral_centroid": 505.21,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_ds2",
+      "default_files": [
+        "D#2.wav",
+        "D#1.wav",
+        "D2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 5000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "E2": {
+      "description": "E2 Note Detector 20",
+      "target_note": "E2",
+      "f_natural": 82.12,
+      "spectral_centroid": 582.34,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_e2",
+      "default_files": [
+        "E2.wav",
+        "E1.wav",
+        "A0.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 5000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F2": {
+      "description": "F2 Note Detector 21",
+      "target_note": "F2",
+      "f_natural": 87.0,
+      "spectral_centroid": 520.46,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_f2",
+      "default_files": [
+        "F2.wav",
+        "F1.wav",
+        "E2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 5000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F#2": {
+      "description": "F#2 Note Detector 22",
+      "target_note": "F#2",
+      "f_natural": 91.88,
+      "spectral_centroid": 415.94,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_fs2",
+      "default_files": [
+        "F#2.wav",
+        "F#1.wav",
+        "B0.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.005,
+        "drive_strength": 5000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G2": {
+      "description": "G2 Note Detector 23",
+      "target_note": "G2",
+      "f_natural": 97.38,
+      "spectral_centroid": 460.98,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_g2",
+      "default_files": [
+        "G2.wav",
+        "G1.wav",
+        "C1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 3800
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G#2": {
+      "description": "G#2 Note Detector 24",
+      "target_note": "G#2",
+      "f_natural": 103.38,
+      "spectral_centroid": 590.46,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_gs2",
+      "default_files": [
+        "G#2.wav",
+        "G#1.wav",
+        "C#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 8,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 19000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A2": {
+      "description": "A2 Note Detector 25",
+      "target_note": "A2",
+      "f_natural": 108.5,
+      "spectral_centroid": 693.39,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_a2",
+      "default_files": [
+        "A2.wav",
+        "A1.wav",
+        "A0.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 4,
+        "bandwidth_octaves": 0.005,
+        "drive_strength": 48000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A#2": {
+      "description": "A#2 Note Detector 26",
+      "target_note": "A#2",
+      "f_natural": 116.54,
+      "spectral_centroid": 529.06,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_as2",
+      "default_files": [
+        "A#2.wav",
+        "A#1.wav",
+        "D#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.01,
+        "drive_strength": 11000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "B2": {
+      "description": "B2 Note Detector 27",
+      "target_note": "B2",
+      "f_natural": 123.47,
+      "spectral_centroid": 550.48,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_b2",
+      "default_files": [
+        "B2.wav",
+        "B1.wav",
+        "E1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 11000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C3": {
+      "description": "C3 Note Detector 28",
+      "target_note": "C3",
+      "f_natural": 130.75,
+      "spectral_centroid": 448.91,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_c3",
+      "default_files": [
+        "C3.wav",
+        "C2.wav",
+        "F1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 5000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C#3": {
+      "description": "C#3 Note Detector 29",
+      "target_note": "C#3",
+      "f_natural": 138.5,
+      "spectral_centroid": 475.86,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_cs3",
+      "default_files": [
+        "C#3.wav",
+        "C#2.wav",
+        "F#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 5000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D3": {
+      "description": "D3 Note Detector 30",
+      "target_note": "D3",
+      "f_natural": 146.62,
+      "spectral_centroid": 577.1,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_d3",
+      "default_files": [
+        "D3.wav",
+        "D2.wav",
+        "G1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 5000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D#3": {
+      "description": "D#3 Note Detector 31",
+      "target_note": "D#3",
+      "f_natural": 155.38,
+      "spectral_centroid": 518.35,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_ds3",
+      "default_files": [
+        "D#3.wav",
+        "D#2.wav",
+        "G#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 5000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "E3": {
+      "description": "E3 Note Detector 32",
+      "target_note": "E3",
+      "f_natural": 164.7,
+      "spectral_centroid": 619.17,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_e3",
+      "default_files": [
+        "E3.wav",
+        "E2.wav",
+        "A1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 27000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F3": {
+      "description": "F3 Note Detector 33",
+      "target_note": "F3",
+      "f_natural": 174.25,
+      "spectral_centroid": 670.72,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_f3",
+      "default_files": [
+        "F3.wav",
+        "F2.wav",
+        "A#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 17000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F#3": {
+      "description": "F#3 Note Detector 34",
+      "target_note": "F#3",
+      "f_natural": 184.75,
+      "spectral_centroid": 443.51,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_fs3",
+      "default_files": [
+        "F#3.wav",
+        "F#2.wav",
+        "B0.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 7000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G3": {
+      "description": "G3 Note Detector 35",
+      "target_note": "G3",
+      "f_natural": 195.75,
+      "spectral_centroid": 499.27,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_g3",
+      "default_files": [
+        "G3.wav",
+        "G2.wav",
+        "C2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 9000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G#3": {
+      "description": "G#3 Note Detector 36",
+      "target_note": "G#3",
+      "f_natural": 207.38,
+      "spectral_centroid": 565.94,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_gs3",
+      "default_files": [
+        "G#3.wav",
+        "G#2.wav",
+        "C#2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 2,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 23000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A3": {
+      "description": "A3 Note Detector 37",
+      "target_note": "A3",
+      "f_natural": 219.62,
+      "spectral_centroid": 584.87,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_a3",
+      "default_files": [
+        "A3.wav",
+        "A2.wav",
+        "D2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 2,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 19000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A#3": {
+      "description": "A#3 Note Detector 38",
+      "target_note": "A#3",
+      "f_natural": 232.5,
+      "spectral_centroid": 604.72,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_as3",
+      "default_files": [
+        "A#3.wav",
+        "A#2.wav",
+        "A#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "waveform_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 27000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "B3": {
+      "description": "B3 Note Detector 39",
+      "target_note": "B3",
+      "f_natural": 246.8,
+      "spectral_centroid": 545.3,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_b3",
+      "default_files": [
+        "B3.wav",
+        "B2.wav",
+        "E2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 13000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C4": {
+      "description": "C4 Note Detector 40",
+      "target_note": "C4",
+      "f_natural": 261.12,
+      "spectral_centroid": 662.65,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_c4",
+      "default_files": [
+        "C4.wav",
+        "C3.wav",
+        "F2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 10,
+        "bandwidth_octaves": 0.001,
+        "drive_strength": 27000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C#4": {
+      "description": "C#4 Note Detector 41",
+      "target_note": "C#4",
+      "f_natural": 276.62,
+      "spectral_centroid": 738.72,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_cs4",
+      "default_files": [
+        "C#4.wav",
+        "C#3.wav",
+        "F#2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 38,
+        "bandwidth_octaves": 1,
+        "drive_strength": 57000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D4": {
+      "description": "D4 Note Detector 42",
+      "target_note": "D4",
+      "f_natural": 293.66,
+      "spectral_centroid": 627.87,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_d4",
+      "default_files": [
+        "D4.wav",
+        "D3.wav",
+        "G2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 25000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D#4": {
+      "description": "D#4 Note Detector 43",
+      "target_note": "D#4",
+      "f_natural": 311.0,
+      "spectral_centroid": 640.89,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_ds4",
+      "default_files": [
+        "D#4.wav",
+        "G#2.wav",
+        "C#1.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 25000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "E4": {
+      "description": "E4 Note Detector 44",
+      "target_note": "E4",
+      "f_natural": 329.8,
+      "spectral_centroid": 646.22,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_e4",
+      "default_files": [
+        "E4.wav",
+        "E3.wav",
+        "A2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 15000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F4": {
+      "description": "F4 Note Detector 45",
+      "target_note": "F4",
+      "f_natural": 349.5,
+      "spectral_centroid": 707.16,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_f4",
+      "default_files": [
+        "F4.wav",
+        "F3.wav",
+        "A#2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 21000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F#4": {
+      "description": "F#4 Note Detector 46",
+      "target_note": "F#4",
+      "f_natural": 369.5,
+      "spectral_centroid": 719.78,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_fs4",
+      "default_files": [
+        "F#4.wav",
+        "F#3.wav",
+        "B2.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 16,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 25000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G4": {
+      "description": "G4 Note Detector 47",
+      "target_note": "G4",
+      "f_natural": 390.9,
+      "spectral_centroid": 723.31,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_g4",
+      "default_files": [
+        "G4.wav",
+        "G3.wav",
+        "C3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 22000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G#4": {
+      "description": "G#4 Note Detector 48",
+      "target_note": "G#4",
+      "f_natural": 414.88,
+      "spectral_centroid": 800.83,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_gs4",
+      "default_files": [
+        "G#4.wav",
+        "G#3.wav",
+        "C#3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 15000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A4": {
+      "description": "A4 Note Detector 49",
+      "target_note": "A4",
+      "f_natural": 439.88,
+      "spectral_centroid": 848.08,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_a4",
+      "default_files": [
+        "A4.wav",
+        "A3.wav",
+        "D3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 17000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A#4": {
+      "description": "A#4 Note Detector 50",
+      "target_note": "A#4",
+      "f_natural": 466.0,
+      "spectral_centroid": 667.65,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_as4",
+      "default_files": [
+        "A#4.wav",
+        "A#3.wav",
+        "D#3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 15000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "B4": {
+      "description": "B4 Note Detector 51",
+      "target_note": "B4",
+      "f_natural": 493.62,
+      "spectral_centroid": 743.81,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_b4",
+      "default_files": [
+        "B4.wav",
+        "B3.wav",
+        "E3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 17000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C5": {
+      "description": "C5 Note Detector 52",
+      "target_note": "C5",
+      "f_natural": 522.88,
+      "spectral_centroid": 644.79,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_c5",
+      "default_files": [
+        "C5.wav",
+        "C4.wav",
+        "F3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 17000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C#5": {
+      "description": "C#5 Note Detector 53",
+      "target_note": "C#5",
+      "f_natural": 554.0,
+      "spectral_centroid": 659.54,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_cs5",
+      "default_files": [
+        "C#5.wav",
+        "C#4.wav",
+        "F#3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 21000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D5": {
+      "description": "D5 Note Detector 54",
+      "target_note": "D5",
+      "f_natural": 586.5,
+      "spectral_centroid": 687.74,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_d5",
+      "default_files": [
+        "D5.wav",
+        "D4.wav",
+        "G3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 23000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D#5": {
+      "description": "D#5 Note Detector 55",
+      "target_note": "D#5",
+      "f_natural": 622.0,
+      "spectral_centroid": 728.94,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_ds5",
+      "default_files": [
+        "D#5.wav",
+        "D#4.wav",
+        "G#3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 21000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "E5": {
+      "description": "E5 Note Detector 56",
+      "target_note": "E5",
+      "f_natural": 659.0,
+      "spectral_centroid": 754.28,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_e5",
+      "default_files": [
+        "E5.wav",
+        "E4.wav",
+        "A3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 25000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F5": {
+      "description": "F5 Note Detector 57",
+      "target_note": "F5",
+      "f_natural": 698.25,
+      "spectral_centroid": 789.05,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_f5",
+      "default_files": [
+        "F5.wav",
+        "F4.wav",
+        "A#3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 21000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F#5": {
+      "description": "F#5 Note Detector 58",
+      "target_note": "F#5",
+      "f_natural": 740.38,
+      "spectral_centroid": 740.34,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_fs5",
+      "default_files": [
+        "F#5.wav",
+        "F#4.wav",
+        "B3.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 27000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G5": {
+      "description": "G5 Note Detector 59",
+      "target_note": "G5",
+      "f_natural": 784.38,
+      "spectral_centroid": 837.88,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_g5",
+      "default_files": [
+        "G5.wav",
+        "G4.wav",
+        "C4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 41000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G#5": {
+      "description": "G#5 Note Detector 60",
+      "target_note": "G#5",
+      "f_natural": 830.38,
+      "spectral_centroid": 1309.17,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_gs5",
+      "default_files": [
+        "G#5.wav",
+        "G#4.wav",
+        "C#4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 91000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A5": {
+      "description": "A5 Note Detector 61",
+      "target_note": "A5",
+      "f_natural": 879.75,
+      "spectral_centroid": 1308.27,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_a5",
+      "default_files": [
+        "A5.wav",
+        "A4.wav",
+        "D4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 97000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A#5": {
+      "description": "A#5 Note Detector 62",
+      "target_note": "A#5",
+      "f_natural": 932.62,
+      "spectral_centroid": 946.68,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_as5",
+      "default_files": [
+        "A#5.wav",
+        "A#4.wav",
+        "D#4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 53000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "B5": {
+      "description": "B5 Note Detector 63",
+      "target_note": "B5",
+      "f_natural": 988.12,
+      "spectral_centroid": 1008.67,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_b5",
+      "default_files": [
+        "B5.wav",
+        "B4.wav",
+        "E4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 47000
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C6": {
+      "description": "C6 Note Detector 64",
+      "target_note": "C6",
+      "f_natural": 1047.5,
+      "spectral_centroid": 1037.37,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_c6",
+      "default_files": [
+        "C6.wav",
+        "C5.wav",
+        "F4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 2,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 79000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C#6": {
+      "description": "C#6 Note Detector 65",
+      "target_note": "C#6",
+      "f_natural": 1109.75,
+      "spectral_centroid": 1084.44,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_cs6",
+      "default_files": [
+        "C#6.wav",
+        "C#5.wav",
+        "F#4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 85000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D6": {
+      "description": "D6 Note Detector 66",
+      "target_note": "D6",
+      "f_natural": 1175.75,
+      "spectral_centroid": 1163.86,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_d6",
+      "default_files": [
+        "D6.wav",
+        "D5.wav",
+        "G4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 95000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D#6": {
+      "description": "D#6 Note Detector 67",
+      "target_note": "D#6",
+      "f_natural": 1249.25,
+      "spectral_centroid": 1403.65,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_ds6",
+      "default_files": [
+        "D#6.wav",
+        "D#5.wav",
+        "G#4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 2,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 95000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "E6": {
+      "description": "E6 Note Detector 68",
+      "target_note": "E6",
+      "f_natural": 1323.62,
+      "spectral_centroid": 1502.63,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_e6",
+      "default_files": [
+        "E6.wav",
+        "E5.wav",
+        "A4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 91000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F6": {
+      "description": "F6 Note Detector 69",
+      "target_note": "F6",
+      "f_natural": 1402.75,
+      "spectral_centroid": 1269.37,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_f6",
+      "default_files": [
+        "F6.wav",
+        "F5.wav",
+        "A#4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 119000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F#6": {
+      "description": "F#6 Note Detector 70",
+      "target_note": "F#6",
+      "f_natural": 1485.0,
+      "spectral_centroid": 1352.98,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_fs6",
+      "default_files": [
+        "F#6.wav",
+        "F#5.wav",
+        "B4.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 93000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G6": {
+      "description": "G6 Note Detector 71",
+      "target_note": "G6",
+      "f_natural": 1574.12,
+      "spectral_centroid": 1574.16,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_g6",
+      "default_files": [
+        "G6.wav",
+        "G5.wav",
+        "C5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 87000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G#6": {
+      "description": "G#6 Note Detector 72",
+      "target_note": "G#6",
+      "f_natural": 1666.75,
+      "spectral_centroid": 1666.72,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_gs6",
+      "default_files": [
+        "G#6.wav",
+        "G#5.wav",
+        "C#5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 87000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A6": {
+      "description": "A6 Note Detector 73",
+      "target_note": "A6",
+      "f_natural": 1772.5,
+      "spectral_centroid": 1621.4,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_a6",
+      "default_files": [
+        "A6.wav",
+        "A5.wav",
+        "D5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 87000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A#6": {
+      "description": "A#6 Note Detector 74",
+      "target_note": "A#6",
+      "f_natural": 1877.88,
+      "spectral_centroid": 1733.95,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_as6",
+      "default_files": [
+        "A#6.wav",
+        "A#5.wav",
+        "D#5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 150000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "B6": {
+      "description": "B6 Note Detector 75",
+      "target_note": "B6",
+      "f_natural": 1990.12,
+      "spectral_centroid": 1990.12,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_b6",
+      "default_files": [
+        "B6.wav",
+        "B5.wav",
+        "E5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 170000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C7": {
+      "description": "C7 Note Detector 76",
+      "target_note": "C7",
+      "f_natural": 2105.5,
+      "spectral_centroid": 2105.5,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_c7",
+      "default_files": [
+        "C7.wav",
+        "C6.wav",
+        "F5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 100000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C#7": {
+      "description": "C#7 Note Detector 77",
+      "target_note": "C#7",
+      "f_natural": 2230.62,
+      "spectral_centroid": 2149.11,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_cs7",
+      "default_files": [
+        "C#7.wav",
+        "C#6.wav",
+        "F#5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 210000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D7": {
+      "description": "D7 Note Detector 78",
+      "target_note": "D7",
+      "f_natural": 2363.5,
+      "spectral_centroid": 2323.48,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_d7",
+      "default_files": [
+        "D7.wav",
+        "D6.wav",
+        "G5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 220000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "D#7": {
+      "description": "D#7 Note Detector 79",
+      "target_note": "D#7",
+      "f_natural": 2516.38,
+      "spectral_centroid": 2247.83,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_ds7",
+      "default_files": [
+        "D#7.wav",
+        "D#6.wav",
+        "G#5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 370000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "E7": {
+      "description": "E7 Note Detector 80",
+      "target_note": "E7",
+      "f_natural": 2665.88,
+      "spectral_centroid": 2488.76,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_e7",
+      "default_files": [
+        "E7.wav",
+        "E6.wav",
+        "A5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 310000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F7": {
+      "description": "F7 Note Detector 81",
+      "target_note": "F7",
+      "f_natural": 2827.62,
+      "spectral_centroid": 2567.08,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_f7",
+      "default_files": [
+        "F7.wav",
+        "F6.wav",
+        "A#5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 270000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "F#7": {
+      "description": "F#7 Note Detector 82",
+      "target_note": "F#7",
+      "f_natural": 2995.88,
+      "spectral_centroid": 2648.36,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_fs7",
+      "default_files": [
+        "F#7.wav",
+        "F#6.wav",
+        "B5.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 290000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G7": {
+      "description": "G7 Note Detector 83",
+      "target_note": "G7",
+      "f_natural": 3183.38,
+      "spectral_centroid": 2711.56,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_g7",
+      "default_files": [
+        "G7.wav",
+        "G6.wav",
+        "C6.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 500000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "G#7": {
+      "description": "G#7 Note Detector 84",
+      "target_note": "G#7",
+      "f_natural": 3372.62,
+      "spectral_centroid": 2988.61,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_gs7",
+      "default_files": [
+        "G#7.wav",
+        "G#6.wav",
+        "C#6.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 480000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A7": {
+      "description": "A7 Note Detector 85",
+      "target_note": "A7",
+      "f_natural": 3585.38,
+      "spectral_centroid": 2520.46,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_a7",
+      "default_files": [
+        "A7.wav",
+        "A6.wav",
+        "D6.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 260000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "A#7": {
+      "description": "A#7 Note Detector 86",
+      "target_note": "A#7",
+      "f_natural": 3797.75,
+      "spectral_centroid": 2699.21,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_as7",
+      "default_files": [
+        "A#7.wav",
+        "A#6.wav",
+        "D#6.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 0.1,
+        "drive_strength": 250000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "B7": {
+      "description": "B7 Note Detector 87",
+      "target_note": "B7",
+      "f_natural": 4050.62,
+      "spectral_centroid": 2885.29,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_b7",
+      "default_files": [
+        "B7.wav",
+        "B6.wav",
+        "E6.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 750000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    },
+    "C8": {
+      "description": "C8 Note Detector 88",
+      "target_note": "C8",
+      "f_natural": 4291.88,
+      "spectral_centroid": 2859.81,
+      "output_dir": "output_flho_single_detector/output_flho_dmd_c8",
+      "default_files": [
+        "C8.wav",
+        "C7.wav",
+        "F6.wav"
+      ],
+      "ab_threshold": 1.0,
+      "processing": {
+        "normalization_type": "spectrum_max",
+        "centroid_weighted": true,
+        "centroid_beta": 0,
+        "bandwidth_octaves": 10,
+        "drive_strength": 950000,
+        "interpolation": true
+      },
+      "dmd_params": {
+        "hankel_m": 3,
+        "svd_rank": 5,
+        "freq_window": 5
+      }
+    }
+  }
+}
