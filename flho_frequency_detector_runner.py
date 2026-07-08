@@ -37,7 +37,7 @@ from pathlib import Path
 # Add project root directory to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from flho_pitch_detector_utils import PitchDetector
+from flho_frequency_detector_utils import PitchDetector
 
 # ==================== Global Configuration ====================
 # Directory containing audio files to detect (scanned in interactive mode)
